@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@id/linear2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/FREEFIREFX2" android:background="@color/mainAppColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="Extreme FPS Tool Unlocker" />
+		<TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/SELECTVERSION1" android:background="@color/mainAppColor" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/hscroll1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:id="@id/linear1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIREGL" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [GL]" />
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIREGLBETA" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [GL BETA]" />
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIREGLLITE" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [GL Max]" />
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIREGLLITEBETA" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [GL Max BETA]" />
+				</LinearLayout>
+				<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIRECN" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [CN]" />
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIREKR" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [SG]" />
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIREVN" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [VN]" />
+					<CheckBox android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/FREEFIRETW" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FreeFire [Indian]" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/SELECTVERSION2" android:background="@color/mainAppColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+		<LinearLayout android:orientation="vertical" android:paddingTop="@android:dimen/app_icon_size" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/button1" android:background="@color/mainAppColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+			<Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/button2" android:background="@color/mainAppColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+		<TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/MYGITHUB1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="GitHub - https://github.com/Onuq007/FREEFIREFX" />
+		<TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/CURRENTVERSION1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CURRENT VERSION :\nCODE : 2\nNAME : 2.0" />
+	</LinearLayout>
+</RelativeLayout>
